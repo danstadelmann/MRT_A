@@ -1,0 +1,3 @@
+#igore temporary files
+*.slx.autosave
+*.m~
