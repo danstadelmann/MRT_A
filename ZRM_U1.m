@@ -68,7 +68,7 @@ title('komplexe s-Ebene');
 % durch den Regler beeinflussbar sind?
 colors = ['xb' 'xy' 'xc' 'xm' 'xr' 'xg'];
 for m = 1:6
-    D_m = [-1 -2 3; -3 -2 -3; -1 2 ((-2-0.15*2)+0.6*rand)]
+    D_m = [-1 -2 3; -3 -2 -3; -1 2 ((-2-0.15*2)+0.6*rand)];
     % eig(D_m) debug purpose
     plot(real(eig(D_m)),imag(eig(D_m)),colors(m));
     hold on;
