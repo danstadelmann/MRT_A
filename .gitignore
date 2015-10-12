@@ -1,3 +1,10 @@
-#igore temporary files
+#ignore temporary files
 *.slx.autosave
 *.m~
+#ignore simulink files
+*.slx
+
+#ignore specific files
+Antialiasing.m
+PID_Regler.m
+signalFFT.m
